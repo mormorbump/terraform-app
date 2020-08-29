@@ -8,6 +8,8 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
 # モジュールインストール
 sudo yum -y install bzip2 gcc gcc-c++ openssl-devel readline-devel zlib-devel mysql mysql-devel tmux libxml2 libxml2-devel libcurl libcurl-devel
+# imagemagick系
+sudo yum install -y libtiff graphviz ImageMagick6 ImageMagick6-devel ImageMagick6-libs --enablerepo=remi,epel,base
 
 # cloud watch メモリ監視
 sudo yum -y install perl-Switch perl-DateTime perl-Sys-Syslog perl-LWP-Protocol-https perl-Digest-SHA.x86_64
