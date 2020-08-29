@@ -1,0 +1,6 @@
+.terraform
+terraform.tfvars
+terraform.tfstate*
+.terraform.tfstate*
+holo-break-api-stg
+holo-break-api-stg.pub

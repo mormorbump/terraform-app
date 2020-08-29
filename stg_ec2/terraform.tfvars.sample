@@ -1,0 +1,22 @@
+region            = "ap-northeast-1"
+aws_instance_ami  = "ami-9c9443e3"
+aws_instance_type = "t3.medium"
+# Redash recommend AMI for region
+# https://redash.io/help/open-source/setup#aws
+redash_ami                         = "ami-060741a96307668be"
+redash_instance_type               = "t2.small"
+elasticache_node_type              = "cache.t2.small"
+aws_db_instance_class              = "db.t2.micro"
+aws_db_username                    = "aws_db_username" # dbUser名はアンスコ
+aws_db_password                    = "aws_db_password"
+ssh_key_name                       = "ssh_key_name"
+ssh_public_key_path                = "~/.ssh/key_name.pub"
+ssh_private_key_path               = "~/.ssh/key_name"
+name                               = "app-name"
+aws_web_domain                     = "app.domain"
+aws_web_subdomain                  = "sub.app.domain"
+aws_credentials_path               = "~/.aws/credentials"
+aws_credentials_profile_name       = "default"
+s3_remote_state_bucket             = "s3_remote_state_bucket_name"
+s3_remote_state_network_common_key = "s3_remote_state_network_common_key_path"
+s3_remote_state_network_env_key    = "s3_remote_state_network_env_key_path"
