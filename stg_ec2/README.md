@@ -48,7 +48,7 @@ $ terraform apply
 ## rdsへの接続
 
 ```
-$ mysql -h {ENDPOINT} -u {Username} –p
+$ mysql -u {Username} -p -h {ENDPOINT}
 ```
 
 DB作成
